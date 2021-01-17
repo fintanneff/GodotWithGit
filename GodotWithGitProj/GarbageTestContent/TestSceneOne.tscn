@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://GarbageTestContent/little_blob.png" type="Texture" id=1]
 
 [sub_resource type="SphereMesh" id=1]
 
@@ -20,3 +22,7 @@ material/0 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -8 )
 mesh = SubResource( 1 )
 material/0 = null
+
+[node name="little_blob" type="Sprite" parent="."]
+position = Vector2( 104, 527 )
+texture = ExtResource( 1 )
