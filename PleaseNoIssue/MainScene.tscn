@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Player/beanFrames.tres" type="SpriteFrames" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="AnimatedSprite" parent="."]
+position = Vector2( 105.112, 93.9281 )
+scale = Vector2( 6.46583, 5.60916 )
+frames = ExtResource( 1 )
+frame = 1
+speed_scale = 1.728
+playing = true
