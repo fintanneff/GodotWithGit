@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="GodotWithGitProj"
+run/main_scene="res://TestPlayScene.tscn"
 
 [input]
 
