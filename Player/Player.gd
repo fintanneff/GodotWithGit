@@ -1,4 +1,7 @@
 extends KinematicBody2D
 
+var graphic
+
 func _ready():
-	pass # Replace with function body.
+	graphic = get_node("graphic")
+	print(graphic.name)
