@@ -7,3 +7,9 @@ func _process(delta):
 	lifetime -= delta
 	if (lifetime <= 0):
 		queue_free()
+	
+
+
+func _on_Bullet_area_entered(area):
+	queue_free()
+	area.queue_free()

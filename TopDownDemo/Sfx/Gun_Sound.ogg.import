@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Gun_Sound.ogg-f1425bb19d6b43a2163b7ab8bcc45b1e.oggstr"
+
+[deps]
+
+source_file="res://TopDownDemo/Sfx/Gun_Sound.ogg"
+dest_files=[ "res://.import/Gun_Sound.ogg-f1425bb19d6b43a2163b7ab8bcc45b1e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
