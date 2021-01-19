@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="GodotWithGit"
+run/main_scene="res://MainSceen.tscn"
 config/icon="res://icon.png"
 
 [editor]

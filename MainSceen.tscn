@@ -5,4 +5,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 478.798, 238.673 )
+position = Vector2( -2.15863, 1.94046 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
