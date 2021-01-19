@@ -14,15 +14,17 @@ func _process(delta):
 		movevec.x = 0
 
 func _physics_process(delta):
+	if (Input.is_action_just_pressed("ui_up")):
+		print("up detected")
 	#Grav
 	if (is_on_floor()):
-		movevec.y = 2
+		movevec.y = 10
 		if (Input.is_action_just_pressed("ui_up")):
 			movevec.y = -200
+			print("lol")
 	else:
 		movevec.y += 7
 		if (Input.is_action_just_released("ui_up") && movevec.y < 0):
 			movevec.y /= 3
 	#ApplyMove
-	move_and_slide(movevec.x * Vector2.RIGHT, Vector2.UP, true)
-	move_and_slide(movevec.y * Vector2.DOWN, Vector2.UP, true)
+	movevec = move_and_slide(movevec, Vector2.UP, true)

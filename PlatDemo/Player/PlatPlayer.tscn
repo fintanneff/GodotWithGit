@@ -4,7 +4,7 @@
 [ext_resource path="res://PlatDemo/Player/beanframes.tres" type="SpriteFrames" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 16, 16 )
+extents = Vector2( 10, 16 )
 
 [node name="PlatPlayer" type="KinematicBody2D"]
 script = ExtResource( 1 )
@@ -15,4 +15,5 @@ shape = SubResource( 1 )
 [node name="Spr" type="AnimatedSprite" parent="."]
 frames = ExtResource( 2 )
 animation = "idle"
+frame = 2
 playing = true
